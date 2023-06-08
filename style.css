@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: block;
+    position: fixed;
+    background-color: crimson;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+}
+
+html, body { 
+    height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    margin: .05em 0 .05em 0;
+}
+nav a:visited, 
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+nav>ul {
+    display: incline;
+    padding: 0;
+}
+
+nav>ul {
+    display: inline;
+    padding: 0;
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+main {
+    display: block;
+
+    
+    background-size: cover;
+    background-position: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    ;
+}
+aside, article{
+    padding: 2em;
+}
+aside{
+    text-align: left;
+}
+article {
+    text-align: center;
+}
+article{
+    width: 75%;
+}
+
+.columns {
+    display: flex;
+}
+
+@media screen {
+    min-width: 768px;
+}
+aside{
+    margin: 2%;
+}
+
+.columns-desktop {
+    display: flex;
+    display: inline-flex;
+}
+
+/* Pizzas */
+
+.Pizza {
+    width: 500px;
+    padding: 0px;
+    background-color: #fff;
+    border: solid 2px #ccc;
+    margin: 0px;
+}
+.Pizza img {
+    width: 100%;
+}
+.Pizza .title {
+    font-weight: bold;
+    text-align: right;
+
+}
+.Pizza .columns {
+    text-align: right;
+}
+.Pizza .columns div {
+    width: 50%;
+}
+.Pizza button {
+    background-color: #ccc;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.contact {
+    font-size: 2em;
+    text-align: center;
+}
+.contact .detail {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border: solid 5px #fff;
+    padding: 1em;
+    background-color: lightgray;
+}
